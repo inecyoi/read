@@ -1,0 +1,47 @@
+<!--pages/index/index.wxml-->
+<view class="index">
+<!-- 轮播图 -->
+<lunbotu></lunbotu>
+
+<!-- 分类 -->
+<fenlei></fenlei>
+
+<!-- 搜索 -->
+<!-- <sou></sou> -->
+
+<!-- 文章列表 -->
+<block wx:for="{{postsList}}">
+  <view class="list">
+    <!-- 头像与发布时间 -->
+    <view class="title">
+      <image class="tou" bindtap="previewAvatar" src="{{item.avatar}}" style="width:50rpx;height:50rpx"></image>
+      <text class="uss">{{item.author}}</text>
+      <text class="time">{{item.dateTime}}</text>
+    </view>
+    <!-- 文章简介 -->
+    <view class="xq" bindtap="gotoPosts" data-id="{{post.postId}}">
+      <text class="zizi">{{item.title}}</text>
+      <text class="zi">{{item.desc}}</text>
+      <view class="tutu">
+        <image class="tu" catchtap="previewAvatar" src="{{item.imgSrc}}"></image>
+      </view>
+    </view>
+    <!-- 点赞评论 -->
+    <view class="pp">
+      <view class="pp-item">
+        <text class="iconfont icon-dianzan"></text>
+        <text>{{item.reading}}</text>
+      </view>
+      <view class="pp-item">
+        <text class="iconfont icon-pinglun"></text>
+        <text>{{item.collection}}</text>
+      </view>
+      <view class="pp-item">
+        <text class="iconfont icon-fenxiang"></text>
+        <text>{{item.collection}}{{item.reading}}</text>
+      </view>
+    </view>
+  </view>
+</block>
+
+</view>

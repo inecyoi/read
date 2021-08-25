@@ -1,0 +1,10 @@
+<!--Components/sou/sou.wxml-->
+<view class="sou">
+  <view class="sou-item">
+    <input class="weui-input" auto-focus placeholder="搜索"/>
+  </view>
+  <view class="sou-item">
+    <text class="iconfont icon-sousuo"></text>
+  </view>
+</view>
+

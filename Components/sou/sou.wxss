@@ -1,0 +1,14 @@
+/* Components/sou/sou.wxss */
+.sou{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20rpx;
+  margin: 0 20rpx;
+  display: flex;
+  padding: 10rpx 20rpx;
+}
+.sou-item:nth-child(1){
+  width: 90%;
+}
+
+

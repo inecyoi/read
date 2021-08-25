@@ -1,0 +1,8 @@
+/* Component/lunbotu/lunbotu.wxss */
+.lunbotu{
+  height: 400rpx;
+}
+.lbt-image{
+  width: 100%;
+  height: 100%;
+}

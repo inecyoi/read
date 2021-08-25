@@ -1,0 +1,19 @@
+.fenlei{
+  display: flex;
+  margin: 0 5%;
+  text-align: center;
+  margin: 20rpx;
+  background-color: rgb(255, 255, 255);
+  padding: 3% 2%;
+  border-radius: 20rpx;
+  border: 1px solid #ccc;
+}
+.fenlei-item{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 24rpx;
+}
+.t{
+  margin-top: 10rpx;
+}

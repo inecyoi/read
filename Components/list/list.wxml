@@ -1,0 +1,5 @@
+<!--Components/list/list.wxml-->
+<view class="list" wx:for="{{postsList }}" wx:key="this">
+  <text>{{item.dateTime}}</text>
+  <image src="{{item.avatar}}"></image>
+</view>

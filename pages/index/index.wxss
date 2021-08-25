@@ -1,0 +1,68 @@
+/* pages/index/index.wxss */
+.index{
+  background-color: #ddd;
+}
+
+.list{
+  border: 1rpx solid #ccc;
+  background-color: #fff;
+  margin: 20rpx;
+  padding: 40rpx;
+  border-radius: 20rpx;
+}
+.title{
+  margin-bottom: 70rpx;
+  position: relative;
+}
+.tou{
+  position: absolute;
+
+}
+.uss{
+  position: absolute;
+  left: 70rpx;
+  top: 5rpx;
+  font-size: 26rpx;
+}
+.time{
+  position: absolute;
+  right: 0;
+  font-size: 20rpx;
+  color: #ccc;
+  float: right;
+}
+
+/* 内容 */
+.zizi{
+  font-size: 50rpx;
+  font-weight: 100;
+  display: block;
+  margin-bottom: 10rpx;
+}
+.zi{
+  font-size: 26rpx;
+}
+.tutu{
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* 点赞评论 */
+.pp{
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pp-item{
+  width: 33%;
+  margin-right: 20rpx;
+  font-size: 25rpx;
+  padding-left: 70rpx;
+  border-left: 1rpx solid #ccc;
+}
+.pp-item:first-child{
+  border: 0;
+}

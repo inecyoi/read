@@ -1,0 +1,40 @@
+<!--pages/ci/ci.wxml-->
+<block wx:for="{{post}}">
+  <view class="tutu">
+        <image class="tu" catchtap="previewAvatar" src="{{post.imgSrc}}"></image>
+      </view>
+  <view class="list">
+    <view class="shoucang">
+      <text class="iconfont icon-shoucang"></text>
+    </view>
+    <!-- 文章简介 -->
+    <view class="xq" bindtap="gotoPosts">
+      <text class="zizi">{{post.title}}</text>
+
+          <!-- 头像与发布时间 -->
+      <view class="title">
+        <image class="tou" bindtap="previewAvatar" src="{{post.avatar}}" style="width:50rpx;height:50rpx"></image>
+        <text class="uss">{{post.author}}</text>
+        <text class="time">{{post.dateTime}}</text>
+      </view>
+
+      <view class="hr"></view>
+      <text class="zi">{{post.desc}}</text>
+    </view>
+    <!-- 点赞评论 -->
+    <view class="pp">
+      <view class="pp-item">
+        <text class="iconfont icon-dianzan"></text>
+        <text>{{post.reading}}</text>
+      </view>
+      <view class="pp-item">
+        <text class="iconfont icon-pinglun"></text>
+        <text>{{post.collection}}</text>
+      </view>
+      <view class="pp-item">
+        <text class="iconfont icon-fenxiang"></text>
+        <text>{{post.collection}}{{post.reading}}</text>
+      </view>
+    </view>
+  </view>
+</block>

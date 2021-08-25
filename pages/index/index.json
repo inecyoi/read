@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "lunbotu":"/Components/lunbotu/lunbotu",
+    "fenlei":"/Components/fenlei/fenlei",
+    "sou":"/Components/sou/sou",
+    "list":"/Components/list/list"
+  },
+  "navigationStyle": "custom"
+}

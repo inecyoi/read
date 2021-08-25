@@ -1,0 +1,23 @@
+<!-- 分类 -->
+<view class="fenlei">
+  <view class="fenlei-item">
+    <text class="iconfont icon-huodong-copy"></text>
+    <text class="t">活动</text>
+  </view>
+  <view class="fenlei-item">
+    <text class="iconfont icon-renwu"></text>
+    <text class="t">任务</text>
+  </view>
+  <view class="fenlei-item">
+    <text class="iconfont icon-paixingbang"></text>
+    <text class="t">排行榜</text>
+  </view>
+  <view class="fenlei-item">
+    <text class="iconfont icon-diantai2"></text>
+    <text class="t">电台</text>
+  </view>
+  <view class="fenlei-item">
+    <text class="iconfont icon-huodongmulupeizhi"></text>
+    <text class="t">更多</text>
+  </view>
+</view>

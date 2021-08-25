@@ -1,0 +1,8 @@
+<!-- 轮播图 -->
+<swiper class="lunbotu" autoplay indicator-dots circular indicator-color="#dddddd" indicator-active-color="#ff9800">
+  <block wx:for="{{focusList}}">
+    <swiper-item>
+      <image src="{{item.imgSrc}}" class="lbt-image" data-id="{{item.postId}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
